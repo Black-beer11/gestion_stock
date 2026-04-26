@@ -21,7 +21,7 @@ if(isset($_POST['add'])){
 <link rel="stylesheet" href="css/style.css">
 
 
-// Le formulaire
+<!-- Le formulaire -->
 <h1>Ajouter Produit</h1>
 <form method="POST">
     <input type="text" name="name" placeholder="Nom" required>
@@ -30,7 +30,7 @@ if(isset($_POST['add'])){
     <input type="number" step="0.01" name="price" placeholder="Prix">
     
 
-    // Selection de la catégorie
+    <!-- Selection de la catégorie -->
     <select name="category">
         <?php
         $cat = $conn->query("SELECT * FROM categories");

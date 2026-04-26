@@ -54,3 +54,4 @@ Importer le fichier stock_db.sql
 Mettre le projet dans htdocs (XAMPP)
 Ouvrir :
 http://localhost/gestion_stock
+
